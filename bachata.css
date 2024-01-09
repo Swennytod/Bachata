@@ -1,0 +1,61 @@
+h2 {    
+    height: 100px;
+    width: auto;
+    text-align: center;
+}
+
+
+.navbar-nav .nav-link {
+    margin:30px; /* Ajoutez l'espacement désiré autour du texte */
+  }
+.title {
+    margin: 30px;
+}
+
+/* image title */
+.background-section {
+  background-image: url('bachata.jpg'); /* Remplacez par le chemin vers votre image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 60vh; /* 100% de la hauteur de l'écran */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .overlay p {
+    margin-top: 10px; /* Espace entre le titre et le paragraphe, ajustez selon vos besoins */
+    font-size: 1.5em; /* Ajustez selon vos besoins */
+  }
+  
+  article {
+    margin: 40px;
+    text-align: center;
+    
+  }
+  article p {
+    margin: 50px;
+  }
+  
