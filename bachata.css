@@ -1,5 +1,14 @@
-
-h2 {    
+p {
+  font-family: 'roboto',Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+h1  {
+  font-family: 'roboto',Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+h2 {  
+    font-family: 'roboto',Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;  
     height: 100px;
     width: auto;
     text-align: center;
@@ -62,4 +71,12 @@ h2 {
   }
   #presentation {
     margin: 50px;
+  }
+  .mot-rose {
+    color: hwb(300 31% 7%);
+  }
+
+  footer {
+    padding: 20px;
+    margin: auto;
   }
