@@ -1,3 +1,4 @@
+
 h2 {    
     height: 100px;
     width: auto;
@@ -59,4 +60,6 @@ h2 {
   article p {
     margin: 50px;
   }
-  
+  #presentation {
+    margin: 50px;
+  }
